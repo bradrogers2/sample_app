@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.3'
 gem 'gravatar_image_tag'
 gem 'will_paginate'
+gem 'faker'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -16,7 +17,6 @@ group :development do
 	gem 'sqlite3-ruby', :require => 'sqlite3'
 	gem 'rspec-rails'
 	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
-	gem 'faker'
 end
 
 group :test do
