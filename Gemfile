@@ -10,6 +10,7 @@ gem 'faker'
 
 group :production do
 	gem "pg"
+	gem "therubyracer"
 end
 
 group :development do
